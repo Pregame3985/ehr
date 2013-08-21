@@ -86,6 +86,5 @@ Thumbs.db
 #########################
 xcuserdata
 
-*.lock
 
 schema.rb
