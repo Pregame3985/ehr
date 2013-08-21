@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  run_at: 2013-08-21 15:30:15
+  title: MyString
+
+two:
+  id: 1
+  run_at: 2013-08-21 15:30:15
+  title: MyString

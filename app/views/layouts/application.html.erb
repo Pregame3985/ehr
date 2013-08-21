@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EHR</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="brand" href="<%= root_path %>">EHR</a>
+      <ul class="nav pull-right">
+        <li class="divider-vertical"></li>
+          <li class="divider-vertical"></li>
+          <li><%= link_to 'Sign out', '#', :method => :delete %></li>
+          <li class="divider-vertical"></li>
+        <li class="divider-vertical"></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="nav-header">Main</li>
+          <li><a href="/notifications">Message</a></li>
+          <li><a href="/events">Event</a></li>
+          <li><a href="/reviews">Review</a></li>
+          <li><a href="/candidates">Candidate</a></li>
+        </ul>
+      </div><!--/.well -->
+    </div>
+
+    <div class="span10">
+      <!--Body content-->
+      <%= yield :breadcrumb %>
+
+      <% if flash[:success] %>
+        <div class="alert alert-success fade in" data-alert="alert">
+          <a class="close" data-dismiss='alert' href="#">×</a>
+          <%= flash[:success] %>
+        </div>
+      <% end %>
+
+      <% if flash[:notice] %>
+        <div class="alert alert fade in" data-alert="alert">
+          <a class="close" data-dismiss='alert' href="#">×</a>
+          <%= flash[:notice] %>
+        </div>
+      <% end %>
+
+      <% if flash[:error] %>
+        <div class="alert alert-error fade in">
+          <a class="close" data-dismiss="alert" href="#">&times;</a>
+          <%= flash[:error] %>
+        </div>
+      <% end %>
+
+      <%= yield %>
+    </div>
+  </div>
+</div>
+<hr />
+<footer class="container-fluid">
+  Copyright &copy; 2012 EHR Inc.
+  <%= debug(params) if Rails.env.development? %>
+</footer>
+</body>
+</html>

@@ -1,0 +1,238 @@
+body
+{
+  background: url('/images/bg-grey-noise.jpg') repeat;
+  color: #333333;
+  font: 12px "Lucida Grande", Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+}
+
+ul, li, h1, h2, h3, h4, h5, h5, dt, dl, dd {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+p { margin:0; padding:0; }
+
+a {
+  color: #888;
+  text-decoration: none;
+}
+
+a:hover { color:#333; }
+
+#page {
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+
+#main {
+  width:100%;
+  height:100%;
+}
+
+#main {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: black;
+    background-image: url("/images/cover.jpg");
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+  padding:50px 0 0 30px;
+}
+
+.alert-container {
+  position:fixed;
+  top:-5px;
+  z-index:100;
+  width:100%;
+}
+
+.alert {
+  text-align:center;
+  padding:10px 15px 5px 15px;
+  border:1px solid #ccc;
+  background-color:#eee;
+  margin:0 auto;
+  width:280px;
+  
+}
+
+.alert-success {
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  color: #3A87AD;
+}
+
+.alert-error {
+  background-color: #F2DEDE;
+  border-color: #EED3D7;
+  color: #B94A48;
+}
+
+#header-wrapper {
+  height:90px;
+  background-color:#000;
+  opacity:0.8;
+  filter:alpha(opacity=80);
+}
+
+#header {
+  padding:22px 10px 0 30px;
+  position:relative;
+}
+
+#header a.logo {
+  background:url('/images/logo-white.png') no-repeat;
+  width:179px;
+  height:39px;
+  display:inline-block;
+  color:#333;
+  font-size:36px;
+  font-family:'HelveticaNeue-UltraLight','Helvetica Neue UltraLight','Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-weight:100;
+  margin:18px 0 0 22px;
+  text-indent:-999em;
+  position:absolute;
+}
+
+#header span {
+  color:#aaa;
+  margin-left:8px;
+  font-family:'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-weight:200;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px white, -1px -1px #eee;
+}
+
+ul.header-nav {
+  float: right;
+  margin-top:22px;
+  color:#fff;
+}
+
+.header-nav li {
+  display: block;
+  float: left;
+  margin:0 8px;
+}
+
+ul.header-nav a:hover {
+  color:#fff;
+}
+
+#content-wrapper {
+  padding:45px 0;
+}
+
+/* footer */
+
+#footer {
+  border-top:1px solid #fff;
+  padding:20px 10px;
+}
+
+.footer-container {
+  padding-left:30px;
+}
+
+.footer-links li {
+  float:left;
+  margin-right:15px;
+  color:#888;
+}
+
+.footer-links li.mixpanel {
+  float:right;
+  margin:-12px 0 0 0;
+}
+
+.footer-links li.mixpanel img {
+  border:none;
+}
+
+/* landing page */
+
+#hero-wrapper {
+  width: 100%;
+}
+
+.headline {
+  text-align:left;
+}
+
+.headline h1, .headline h2 {
+  color:#fff;
+  font-weight:100;
+  font-size:52px;
+  text-shadow: 0px 0px #fff, -1px -1px #333;
+  line-height:55px;
+}
+
+.sneak-peek {
+  margin-top:40px;
+}
+
+.sneak-cta {
+  font-size:22px;
+  text-shadow: 0px 0px #fff, -1px -1px #333;
+  color:#eee;
+  margin-left:35px;
+}
+
+.signup {
+  padding:6px 0;
+  margin:15px 0;
+}
+
+.signup a {
+  display:block;
+  background: url('/images/btn-req-invite.png') no-repeat 0 0;
+  width:277px;
+  height:52px;
+  text-indent:-999em;
+}
+
+.signup a:hover {
+  background-position:0 -52px;
+}
+
+.coming-soon {
+  text-align:center;
+  font-size:24px;
+  margin-top:32px;
+}
+
+/* about, contact & other info pages */
+
+.info-container {
+  margin-left:10px;
+}
+
+.info-container section {
+  margin-top:15px;
+}
+
+.info-container section h3 {
+  text-decoration: underline;
+  margin-bottom:20px;
+}
+
+.info-container section li {
+  margin-bottom:25px;
+}
+
+li p.desc {
+  margin: 8px 10px;
+  border-left:2px solid #ccc;
+  padding-left:8px;
+}

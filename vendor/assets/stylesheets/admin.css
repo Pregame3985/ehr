@@ -1,0 +1,75 @@
+/* old management tool css */
+body
+{
+  padding-top: 70px;
+}
+
+table.auto-width
+{
+  width:auto;
+}
+.same_column_line
+{
+  margin:2px 0;
+  padding:2px;
+  border:1px solid #999;
+  background:#f5f5f5;
+}
+.same_column_line strong
+{
+  font-family:"Courier New";
+}
+
+
+/* items/events/collections */
+
+.event-item img {
+  float:left;
+  margin-right:15px;
+}
+
+/* looks */
+
+#looks-index .look-images li {
+  list-style-type:none;
+  float:left;
+}
+
+#looks-index .row1 td {
+  margin-top:10px;
+  border-top:3px solid #ddd;
+}
+
+#crop-image-canvas {
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background:#333;
+  overflow:scroll;
+  padding:25px;
+  padding-top:45px;
+  z-index:2000;
+}
+#crop-image-body {  
+  width:900px;
+  margin:0 auto;  
+}
+#crop-image-toolbar {
+  position:fixed;
+  top:7px;
+  z-index:999999;
+}
+#cropbox{
+  width:100%;
+  height:auto;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  background-image: url("/assets/glyphicons-halflings.png");
+}
+
+.icon-white {
+  background-image: url("/assets/glyphicons-halflings-white.png");
+}
