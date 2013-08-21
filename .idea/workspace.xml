@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8f0a33-7a19-461b-a240-090834740dcb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/EHR.iml" afterPath="$PROJECT_DIR$/.idea/EHR.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/event_test.rb" afterPath="$PROJECT_DIR$/test/unit/event_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/events.yml" afterPath="$PROJECT_DIR$/test/fixtures/events.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/notifications/index.html.haml" afterPath="$PROJECT_DIR$/app/views/notifications/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/notifications_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/notifications_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EHR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +11,7 @@
     <file path="/Dummy.txt" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377100458222" ignored="false" />
     <file path="/notification.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377057536060" ignored="false" />
     <file path="/Gemfile" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377098066589" ignored="false" />
-    <file path="/application.html.erb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377100194412" ignored="false" />
+    <file path="/application.html.erb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377102079867" ignored="false" />
     <file path="/routes.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377099981365" ignored="false" />
     <file path="/a.dummy" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377059876121" ignored="false" />
     <file path="/application.css" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377070882435" ignored="false" />
@@ -67,19 +57,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/notifications/index.html.haml">
+      <file leaf-file-name="notifications_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/notifications_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.4743083">
+            <state line="6" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notifications_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/notifications_controller.rb">
+      <file leaf-file-name="jobs_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/jobs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+            <state line="89" column="29" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="28" selection-start="1150" selection-end="1150" vertical-scroll-proportion="-10.666667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="24" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.11320755">
               <folding />
             </state>
           </provider>
@@ -119,10 +136,10 @@
         <option value="$PROJECT_DIR$/test/fixtures/events.yml" />
         <option value="$PROJECT_DIR$/app/views/jobs/index.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/jobs_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/notifications_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/notifications/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/jobs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -868,20 +885,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/jobs/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="475" selection-end="475" vertical-scroll-proportion="0.74110675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="110" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.65217394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="107" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.6792453">
@@ -924,30 +927,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="77" selection-end="77" vertical-scroll-proportion="0.056603774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/notification.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="113" selection-end="121" vertical-scroll-proportion="0.08490566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/jobs_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="55" selection-start="1524" selection-end="1524" vertical-scroll-proportion="1.8679246">
           <folding />
         </state>
       </provider>
@@ -966,6 +948,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/notifications/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="81" selection-end="81" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/notifications_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
@@ -973,9 +962,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/notifications/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/notification.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.4743083">
+        <state line="1" column="45" selection-start="74" selection-end="85" vertical-scroll-proportion="0.028301887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/jobs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="29" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="28" selection-start="1150" selection-end="1150" vertical-scroll-proportion="-10.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.11320755">
           <folding />
         </state>
       </provider>
