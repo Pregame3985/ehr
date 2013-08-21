@@ -1,8 +1,7 @@
 require 'test_helper'
 
-class EventTest < ActiveSupport::TestCase
+class UserJobRelationTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
-  fixtures :events
 end

@@ -14,8 +14,8 @@
     %tr
       %td= notification.id
       %td= notification.message
-      %td= notification.sender_id
-      %td= notification.receiver_id
+      %td= notification.sender.name
+      %td= notification.receiver.name
       %td= link_to 'Show', notification
       %td= link_to 'Edit', edit_notification_path(notification)
       %td= link_to 'Destroy', notification, :method => :delete, :data => { :confirm => 'Are you sure?' }

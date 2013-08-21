@@ -47,3 +47,5 @@ end
 # gem 'debugger'
 
 gem 'thin'
+
+gem 'test-unit'

@@ -1,4 +1,9 @@
 EHR::Application.routes.draw do
+  resources :jobs do
+    get :apply, :on => :member
+  end
+
+
   resources :events
 
 

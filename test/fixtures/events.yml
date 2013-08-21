@@ -2,10 +2,16 @@
 
 one:
   id: 1
-  run_at: 2013-08-21 15:30:15
-  title: MyString
+  start_time: 2013-08-21 15:30:15
+  title: All Day Event
 
 two:
-  id: 1
-  run_at: 2013-08-21 15:30:15
-  title: MyString
+  id: 2
+  start_time: 2013-08-21 15:30:15
+  end_time: 2013-08-21 15:30:15
+  title: Long Event
+
+three:
+  id: 3
+  start_time: 2013-08-21 15:30:15
+  title: Repeating Event

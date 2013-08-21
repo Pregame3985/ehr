@@ -2,7 +2,7 @@ class NotificationsController < ApplicationController
   # GET /notifications
   # GET /notifications.json
   def index
-    @notifications = Notification.all
+    @notifications = Notification.includes(:sender, :receiver).all
 
     respond_to do |format|
       format.html # index.html.erb
