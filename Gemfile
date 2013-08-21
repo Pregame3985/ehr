@@ -16,6 +16,7 @@ gem 'oj', '2.1.4'
 gem 'will_paginate', '3.0.3'
 gem 'activerecord-postgresql-adapter'
 gem 'pg'
+gem 'unicorn'
 
 # Gems used only for assets and not required
 # in production env
