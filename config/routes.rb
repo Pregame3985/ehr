@@ -1,4 +1,10 @@
 EHR::Application.routes.draw do
+  resources :roles
+
+
+  resources :companies
+
+
   resources :jobs do
     get :apply, :on => :member
   end
