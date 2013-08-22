@@ -18,6 +18,10 @@
 %p
   %b Gender:
   = @user.gender
+%p
+  %b Role:
+  - if @user.role
+    = @user.role.name
 
 = link_to 'Edit', edit_user_path(@user)
 \|

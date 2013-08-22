@@ -35,6 +35,7 @@ class UsersController < ApplicationController
   # GET /users/1/edit
   def edit
     @user = User.find(params[:id])
+    @roles = Role.all
   end
 
   # POST /users
@@ -57,6 +58,8 @@ class UsersController < ApplicationController
   # PUT /users/1.json
   def update
     @user = User.find(params[:id])
+
+    UserRoleRelation.find_or_create_by_user_id_and_role_id(@user.id, params[:role_id])
 
     respond_to do |format|
       if @user.update_attributes(params[:user])

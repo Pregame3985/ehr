@@ -24,5 +24,9 @@
   .field
     = f.label :gender
     = f.number_field :gender
+  .field
+    = f.label :role
+    = collection_select nil, :role_id, @roles, :id, :name
+
   .actions
     = f.submit 'Save'
