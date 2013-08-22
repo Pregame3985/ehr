@@ -1,4 +1,7 @@
 EHR::Application.routes.draw do
+  resources :boxes
+
+
   resources :roles
 
 

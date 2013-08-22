@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Id:
+  = @box.id
+%p
+  %b Name:
+  = @box.name
+%p
+  %b Hash:
+  = @box.hash
+%p
+  %b Authentication token:
+  = @box.authentication_token
+%p
+  %b Interviewee:
+  = @box.interviewee
+
+= link_to 'Edit', edit_box_path(@box)
+\|
+= link_to 'Back', boxes_path
