@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf8f0a33-7a19-461b-a240-090834740dcb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="EHR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,7 +11,7 @@
     <file path="/Dummy.txt" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377135852435" ignored="false" />
     <file path="/notification.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377057536060" ignored="false" />
     <file path="/Gemfile" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377098066589" ignored="false" />
-    <file path="/application.html.erb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377135894333" ignored="false" />
+    <file path="/application.html.erb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377136229847" ignored="false" />
     <file path="/routes.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377099981365" ignored="false" />
     <file path="/a.dummy" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377059876121" ignored="false" />
     <file path="/application.css" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377070882435" ignored="false" />
@@ -144,7 +143,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="35" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.47524753">
+            <state line="42" column="36" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.62376237">
               <folding />
             </state>
           </provider>
@@ -1072,7 +1071,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="35" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.47524753">
+        <state line="42" column="36" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.62376237">
           <folding />
         </state>
       </provider>
