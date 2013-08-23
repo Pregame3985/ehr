@@ -19,3 +19,5 @@
 
 //= require jquery.pnotify
 //= require fullcalendar.min
+
+//= require furatto

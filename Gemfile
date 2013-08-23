@@ -17,6 +17,9 @@ gem 'will_paginate', '3.0.3'
 gem 'activerecord-postgresql-adapter'
 gem 'pg'
 gem 'unicorn'
+gem 'compass-rails'
+gem 'furatto'
+gem 'therubyracer'
 
 # Gems used only for assets and not required
 # in production env
