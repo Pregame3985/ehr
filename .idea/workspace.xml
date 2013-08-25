@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8f0a33-7a19-461b-a240-090834740dcb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/EHR.iml" afterPath="$PROJECT_DIR$/.idea/EHR.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/users/_form.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/notifications_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/notifications_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EHR.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377097810119" ignored="false" />
     <file path="$PROJECT_DIR$/../Internal/Gemfile" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377069466819" ignored="false" />
-    <file path="/Dummy.txt" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377172451584" ignored="false" />
+    <file path="/Dummy.txt" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377446048630" ignored="false" />
     <file path="/notification.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377057536060" ignored="false" />
     <file path="/Gemfile" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377098066589" ignored="false" />
     <file path="/application.html.erb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377136229847" ignored="false" />
-    <file path="/routes.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377151501097" ignored="false" />
-    <file path="/a.dummy" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377245084107" ignored="false" />
+    <file path="/routes.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377446964557" ignored="false" />
+    <file path="/a.dummy" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377321880805" ignored="false" />
     <file path="/application.css" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377070882435" ignored="false" />
     <file path="$PROJECT_DIR$/../Internal/config/database.yml" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377064842905" ignored="false" />
     <file path="$PROJECT_DIR$/../Internal/app/views/manage/collections/_repost_comment_modal.html.erb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377069466819" ignored="false" />
@@ -47,8 +39,8 @@
     <file path="/events.yml" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377098279831" ignored="false" />
     <file path="/event_test.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377097367626" ignored="false" />
     <file path="/jobs_controller.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377100813288" ignored="false" />
-    <file path="/notifications_controller.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377100857181" ignored="false" />
-    <file path="/fragment.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377154156986" ignored="false" />
+    <file path="/notifications_controller.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377445057115" ignored="false" />
+    <file path="/fragment.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377263184447" ignored="false" />
     <file path="/company_job_relation.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377135553738" ignored="false" />
     <file path="/20130822014009_add_company_id_to_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377135658171" ignored="false" />
     <file path="/show.html.haml" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377141312862" ignored="false" />
@@ -68,19 +60,84 @@
     <file path="$PROJECT_DIR$/../Crawler/lib/crawler/jobs/save_rewardstyle_link_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377248734749" ignored="false" />
     <file path="/save_rewardstyle_link_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377244409246" ignored="false" />
     <file path="$PROJECT_DIR$/../Crawler/lib/crawler/jobs/download_product_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377175999674" ignored="false" />
-    <file path="$PROJECT_DIR$/../Internal/app/controllers/manage/products_controller.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377247682518" ignored="false" />
-    <file path="/products_controller.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377247234501" ignored="false" />
+    <file path="$PROJECT_DIR$/../Internal/app/controllers/manage/products_controller.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377321627120" ignored="false" />
+    <file path="/products_controller.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377316059218" ignored="false" />
     <file path="$PROJECT_DIR$/../Crawler/lib/crawler/jobs/save_product_to_look_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377241647306" ignored="false" />
     <file path="$PROJECT_DIR$/../Crawler/lib/crawler/jobs/save_product_to_post_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377243015861" ignored="false" />
     <file path="$PROJECT_DIR$/../Hummingbird/lib/async/jobs/sync_product_to_look_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377245537235" ignored="false" />
     <file path="/sync_product_to_look_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377245536576" ignored="false" />
     <file path="$PROJECT_DIR$/../Hummingbird/lib/async/jobs/save_product_to_post_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377245671814" ignored="false" />
     <file path="/save_product_to_post_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377245665973" ignored="false" />
-    <file path="/draft_item_worker.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377245781164" ignored="false" />
+    <file path="/draft_item_worker.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377315850765" ignored="false" />
     <file path="$PROJECT_DIR$/../Hummingbird/lib/async/jobs/save_product_to_look_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377245826497" ignored="false" />
     <file path="/save_product_to_look_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377245824516" ignored="false" />
     <file path="/Rakefile" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377252687333" ignored="false" />
     <file path="/20130823092933_add_devise_to_users.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377252935237" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/user.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/merchant.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/layout.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/Gemfile" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/menu_item_relation.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/brand.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/static_layout_item.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/draft_item.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/look.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257520743" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/item_magazine_relation.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/config/initializers/oauth.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/look_item_relation.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/magazine.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/user_magazine_relation.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/item.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/draft_item_magazine_relation.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377257451195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/db/look.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377262449384" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/db/photo.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377262449384" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/app/models/db/user.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377262449384" ignored="false" />
+    <file path="$PROJECT_DIR$/../Internal/public/assets/source_maps/app/assets/javascripts/backbone/monogram/backend/views/collections/show/search_products/search_product_panel_view.coffee" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377262503083" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/provider.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377323771814" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/anthropologie.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264943105" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/bananarepublic.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264944350" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/barneysnewyork.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264945187" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/bergdorfgoodman.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264946092" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/bloomingdales.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264947127" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/bluefly.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264947899" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/brooksbrothers.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264948589" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/jcrew.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264949380" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/johnvarvatos.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264950181" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/lastcall.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264951407" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/macys.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264951730" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/neimanmarcus.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264952473" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/netaporter.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264953251" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/nike.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264956533" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/nordstrom.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264958170" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/reebok.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264959053" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/revolveclothing.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264959936" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/saksfifthavenue.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264960830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/shopbop.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264971973" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/shopstyle.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264972889" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/sixpm.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264973703" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/thecusp.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264974488" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/zappos.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264975474" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/merchants/zapposcouture.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377264976765" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/jobs/save_rewardstyle_link_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377323771814" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/async/item_worker.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377323771814" ignored="false" />
+    <file path="/item_worker.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377315047110" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/async/mailer_worker.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377323771814" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/async/statistics_worker.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377323771814" ignored="false" />
+    <file path="$PROJECT_DIR$/../Crawler/lib/biz/crawler/gae.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377323771814" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/lib/biz/async/feed/draft_item_worker.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377324783666" ignored="false" />
+    <file path="$PROJECT_DIR$/../Hummingbird/lib/biz/async/jobs/save_product_to_look_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377316017336" ignored="false" />
+    <file path="$PROJECT_DIR$/../Migration/Gemfile" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377324802354" ignored="false" />
+    <file path="$PROJECT_DIR$/../Migration/db/migrate/20130800000000_cleanup_main.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377324802354" ignored="false" />
+    <file path="$PROJECT_DIR$/../Migration/lib/models/mongo/look.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377328113267" ignored="false" />
+    <file path="/look.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377325197227" ignored="false" />
+    <file path="/20130825150036_add_field_to_user.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377442856911" ignored="false" />
+    <file path="/20130825150222_add_creator_to_box.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377442986899" ignored="false" />
+    <file path="/hr_mailer.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377444496254" ignored="false" />
+    <file path="/20130825152401_change_job_title_to_title_in_job.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377446853645" ignored="false" />
+    <file path="/20130825154206_create_interview_appointments.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377446134956" ignored="false" />
+    <file path="/20130825155415_create_interview_appointment_reviews.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377446095207" ignored="false" />
+    <file path="/interview_appointment_review.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377446391128" ignored="false" />
+    <file path="/interview_appointment.rb" changelist="cf8f0a33-7a19-461b-a240-090834740dcb" time="1377446402480" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,91 +157,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20130823092933_add_devise_to_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130823092933_add_devise_to_users.rb">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
+            <state line="25" column="17" selection-start="725" selection-end="725" vertical-scroll-proportion="0.738189">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <file leaf-file-name="20130825150222_add_creator_to_box.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130825150222_add_creator_to_box.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="15" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+            <state line="9" column="50" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="devise_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/app/controllers/devise_controller.rb">
+      <file leaf-file-name="hr_mailer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mailers/hr_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="35" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0">
+            <state line="9" column="2" selection-start="325" selection-end="498" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="route.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/journey-1.0.4/lib/journey/route.rb">
+      <file leaf-file-name="notifications_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/notifications_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="93" column="103" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="20130825154206_create_interview_appointments.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130825154206_create_interview_appointments.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+            <state line="15" column="28" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/index.html.erb">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="16" selection-start="342" selection-end="342" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/lib/devise/rails/routes.rb">
+      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="150" selection-start="9593" selection-end="9593" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rememberable.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/lib/devise/controllers/rememberable.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scoped_views.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/lib/devise/controllers/scoped_views.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="url_helpers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/lib/devise/controllers/url_helpers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="16" column="26" selection-start="412" selection-end="412" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -212,21 +242,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config.ru" />
-        <option value="$PROJECT_DIR$/config/environment.rb" />
-        <option value="$PROJECT_DIR$/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/secret_token.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/session_store.rb" />
-        <option value="$PROJECT_DIR$/log/development.log" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/db/migrate/20130823092933_add_devise_to_users.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/coffee-rails-3.2.2/lib/rails/generators/coffee/assets/assets_generator.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130825150036_add_field_to_user.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130825150222_add_creator_to_box.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/hr_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/notifications_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130825155415_create_interview_appointment_reviews.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130825154206_create_interview_appointments.rb" />
+        <option value="$PROJECT_DIR$/app/models/interview_appointment_review.rb" />
+        <option value="$PROJECT_DIR$/app/models/interview_appointment.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/_form.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20130825152401_change_job_title_to_title_in_job.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
@@ -269,7 +299,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,7 +322,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
+              <option name="myItemId" value="coffee-script (v2.2.0, RVM: ruby-1.9.3-p362) [gem]" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -311,7 +340,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
+              <option name="myItemId" value="coffee-rails (v3.2.2, RVM: ruby-1.9.3-p362) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ehr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffee-rails (v3.2.2, RVM: ruby-1.9.3-p362) [gem]" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -319,7 +366,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ehr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffee-rails (v3.2.2, RVM: ruby-1.9.3-p362) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -337,7 +430,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
+              <option name="myItemId" value="coffee-rails (v3.2.2, RVM: ruby-1.9.3-p362) [gem]" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,137 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_form_for" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markerb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strategies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
+              <option name="myItemId" value="coffee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -493,7 +456,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
+              <option name="myItemId" value="coffee-rails (v3.2.2, RVM: ruby-1.9.3-p362) [gem]" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -501,221 +464,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="orm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="omniauth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ehr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v2.1.2, RVM: ruby-1.9.3-p362) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -896,6 +649,28 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ehr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ehr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -935,21 +710,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Crawler" />
+    <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
-  <component name="RunManager" selected="Rails.Development: EHR">
+  <component name="RunManager" selected="Rake.db:migrate">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="EHR" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1357,24 +1134,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2619339" sideWeight="0.60194176" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2729498" sideWeight="0.6027987" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3972013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3972013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1443,83 +1220,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="50" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.77272725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="70" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130821035737_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="520" column="21" selection-start="17624" selection-end="17624" vertical-scroll-proportion="0.7678917">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130823092933_add_devise_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/journey-1.0.4/lib/journey/route.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/lib/devise/rails/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="150" selection-start="9593" selection-end="9593" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/lib/devise/controllers/rememberable.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/lib/devise/controllers/scoped_views.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/lib/devise/controllers/url_helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1527,30 +1227,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/app/controllers/devise/registrations_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130825150222_add_creator_to_box.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="18" selection-start="2915" selection-end="2915" vertical-scroll-proportion="1.6339623">
+        <state line="9" column="50" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/devise-2.1.2/app/controllers/devise_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/job.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="35" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/hr_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="2" selection-start="325" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130825155415_create_interview_appointment_reviews.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="47" selection-start="258" selection-end="258" vertical-scroll-proportion="0.31015038">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/interview_appointment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="212" selection-end="212" vertical-scroll-proportion="0.16917293">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/interview_appointment_review.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="141" selection-end="141" vertical-scroll-proportion="0.084586464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/schema_statements.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="22" selection-start="10917" selection-end="10917" vertical-scroll-proportion="0.3911368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130825152401_change_job_title_to_title_in_job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="184" selection-end="184" vertical-scroll-proportion="0.25375938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/notifications_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="103" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130825154206_create_interview_appointments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="28" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="342" selection-end="342" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="412" selection-end="412" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+        <state line="3" column="7" selection-start="60" selection-end="60" vertical-scroll-proportion="0.084586464">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.html.erb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p362/gems/coffee-rails-3.2.2/lib/rails/generators/coffee/assets/assets_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="20" selection-start="359" selection-end="359" vertical-scroll-proportion="0.36654136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="17" selection-start="725" selection-end="725" vertical-scroll-proportion="0.738189">
           <folding />
         </state>
       </provider>

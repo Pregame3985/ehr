@@ -80,4 +80,24 @@ class NotificationsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  #==================================================================
+  #interview appointment
+  def interview_appointment_approve
+
+  end
+
+  def interview_appointment_reject
+
+  end
+
+  #==================================================================
+  #interview
+  def interview_approve
+
+  end
+
+  def interview_reject
+
+  end
 end
